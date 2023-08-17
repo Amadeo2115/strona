@@ -1,0 +1,174 @@
+ <!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <title>Panda & Fox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad4491eefa.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png"
+          href="./websiteIcon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    body
+    {
+        overflow-x: hidden;
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, orange 50%, orange 100%);
+    }
+
+    *
+    {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .container
+    {
+        margin: 0;
+        padding: 0;
+        max-width: 100vw;
+    }
+
+    .container1
+    {
+        background: #121212;
+    }
+
+    .navbar > .container-fluid
+    {
+        justify-content: normal;
+        align-items: center;
+    }
+
+    .invite-button-link
+    {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .invite-button
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 29px;
+        background: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+        .invite-button i
+        {
+            color: orange;
+            background: -webkit-linear-gradient(135deg, rgba(255,177,0,1) 20%, rgba(255,242,0,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    .container2
+    {
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, orange 50%, orange 100%);
+    }
+
+    @media (max-width: 650px) {
+        .container2 svg
+        {
+            width: calc(188% + 1.3px);
+        }
+    }
+
+    @media (min-width: 650px)
+    {
+        .container2 svg
+        {
+            width: calc(134% + 1.3px);
+        }
+    }
+
+        .container2 svg
+        {
+            fill: #121212;
+            height: 131px;
+        }
+
+    .container3 {
+        display: flex;
+    }
+
+    .container3-part
+    {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container3-part p {
+        height: 80px;
+        margin: 2px;
+        text-align: center;
+        color: black;
+        font-weight: 500;
+        margin-top: 6px;
+    }
+
+    .part-icon {
+        height: 200px;
+    }
+
+    .addbutton {
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        font-size: 28px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container container1">
+        <nav class="navbar bg-body-dark">
+            <div class="container-fluid">
+                <img style="height: 60px; width: 60px; object-fit: contain; margin: 0;" src="./websiteIcon.png" class="navbar-brand" />
+                <a href="https://discord.gg/5YacmVTZy5" class="invite-button-link">
+                    <div class="invite-button">
+                        <i style="vertical-align: 5%;" class="fa-solid fa-headset"></i>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="container container2">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="container container3">
+        <div style="background-color: white; border-right: 1px solid orange;" class="container3-part">
+            <img class="part-icon" src="https://media.discordapp.net/attachments/1139942892782231703/1141013845922566246/Polish_20230812_215421286.png" />
+            <a href="https://discord.com/api/oauth2/authorize?client_id=1139900833866186793&permissions=8&scope=bot%20applications.commands">
+                <div style="background-color: #ff8b0d" class="addbutton">
+                    <i style="color: white" class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <p style="color: #ff8b0d">Panda is utility bot with moderation commands, lobby system and logging.</p>
+            <br />
+        </div>
+        <div style="background-color: orange;" class="container3-part">
+            <img class="part-icon" src="https://media.discordapp.net/attachments/1139942892782231703/1141013845616361623/IMG_20230812_210648-removebg-preview.png" />
+            <a href="https://discord.com/api/oauth2/authorize?client_id=918196555981398036&permissions=8&scope=bot%20applications.commands">
+                <div style="background-color: white;" class="addbutton">
+                    <i style="color: #ff8b0d" class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <p style="color: white;">Bumping bot with legacy systems, without requirements, like create channel in your server.</p>
+            <br />
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script>
+</script>
+</html>
